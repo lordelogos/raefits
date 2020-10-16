@@ -288,6 +288,9 @@ html{
 
 #merch div{
 	text-align: left;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	white-space: pre-line;
 }
 
 .small-black{
@@ -526,4 +529,23 @@ html{
 	#gym ul, #sponsors ul{
 	display: none;
 }
+
+	#merch div{
+		width: 99%;
+		margin: auto;
+	}
+
+	#testimonials{
+		margin: 0;
+		padding: 0;
+	}
+
+	#persondiv{
+		margin: auto;
+		width: 100%;
+	}
+
+	.testimonial-text{
+		display: none;
+	}
 }
